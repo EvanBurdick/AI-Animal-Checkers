@@ -1,1 +1,1 @@
-# ChineseCheckersAI
+# Animal Checkers AI Program

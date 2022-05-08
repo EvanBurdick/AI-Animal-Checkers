@@ -8,5 +8,6 @@ automatically operates it's turn using a [backtracking decision-making algorithm
 The objective of the game is to capture the oponnent's den piece using one of the four animal pieces (elephant, tiger, wolf, mouse).
 
 ## How to compile / run
+-compile and file "driver.cpp"
 
 ## Minimax algorithm explanation (alpha/beta pruning)

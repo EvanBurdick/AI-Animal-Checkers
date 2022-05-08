@@ -12,9 +12,13 @@ is limited to what it can capture.
 
 #### Capture Logic:
 -Elephant can capture: elephant, tiger, wolf
+
 -Tiger can capture: tiger, wolf, mouse
+
 -Wolf can capture: wolf, mouse
+
 -Mouse can capture: mouse, elephant
+
 
 ## How to compile / run
 -compile and run file *driver.cpp*

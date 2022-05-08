@@ -2,7 +2,7 @@
 
 ## Introduction
 This is a player vs computer board game called Animal Checkers, which is a modified version of a Chinese game called Jungle. The computer
-automatically operates it's turn using a [backtracking decision-making algorithm](https://en.wikipedia.org/wiki/Minimax#Minimax_algorithm_with_alternate_moves).
+automatically operates it's turn using a [backtracking decision-making algorithm](https://en.wikipedia.org/wiki/Minimax).
 
 ## Game Objective / Rules
 

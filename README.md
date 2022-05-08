@@ -3,7 +3,7 @@
 
 ## Introduction
 This is a player vs computer board game called Animal Checkers, which is a modified version of a Chinese game called Jungle. The computer
-automatically operates it's turn using a backtracking decision-making algorithm called [minimax](https://en.wikipedia.org/wiki/Minimax). 
+automatically operates it's turn using a backtracking decision-making algorithm called [minimax](https://en.wikipedia.org/wiki/Minimax). The AI is set up so that it is impossible for the computer to lose. This can be modified by changing the depth count for the minimax function.
 
 ## Game Objective / Rules
 The objective of the game is to capture the oponnent's den piece using one of the four animal pieces (elephant, tiger, wolf, mouse).
@@ -49,3 +49,9 @@ Demo:
 On the computer's turn, moves are done automatically. You can scroll up in the terminal to view the computer's decision.
 
 ## Minimax algorithm explanation (alpha/beta pruning)
+
+Minimax is a recursion algorithm that searches for the move that will return the highest [static evaluation](https://en.wikipedia.org/wiki/Evaluation_function) of the board. A depth is set which indicates how deep the search will go (how many moves it will look ahead). The further the depth of the search, the "smarter" the play is, as well as the more time it takes to compute. The depth is 8 moves by default but that can be changed in the driver.cpp file.
+
+The search works by first gathering a collection of possible moves to make. Then, it explores each of the moves, by then making a collection of moves the player could make in response. This continues to happen until the depth is met, in which it then returns the static evaluation of that move. 
+
+My program uses a modified version of the minimax algorithm called the [alpha-beta pruning](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning) method, which helps cut down computation time by abandoning search paths that are not worth exploring. 

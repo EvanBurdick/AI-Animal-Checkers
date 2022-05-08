@@ -1,4 +1,8 @@
 # Animal Checkers AI Program
 
-This is a player vs computer board game called Animal Checkers, which is a modified version of a Chinese game called Jungle.
+##Introduction
+This is a player vs computer board game called Animal Checkers, which is a modified version of a Chinese game called Jungle. The computer
+automatically operates it's turn using a [backtracking decision algorithm](https://en.wikipedia.org/wiki/Minimax#Minimax_algorithm_with_alternate_moves) .
+## Game Objective / Rules
+
 The objective of the game is to capture the oponnent's den piece using one of the four animal pieces (elephant, tiger, wolf, mouse).

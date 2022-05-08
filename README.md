@@ -25,4 +25,7 @@ The game is finished once a player has sucessfully captured the oponent's den, o
 ## How to compile / run
 -compile and run file *driver.cpp*
 
+
+## Using the Program
+
 ## Minimax algorithm explanation (alpha/beta pruning)

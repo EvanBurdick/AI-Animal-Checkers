@@ -29,6 +29,8 @@ The game is finished once a player has sucessfully captured the oponent's den, o
 ## Using the Program
 Upon first running the program, you are asked which user is going to go first. Enter in 'p' for player, or 'c' for computer.
 
+## Board Layout
+
 ### Player's Turn
 On your turn, you are presented with the board state and are asked which piece to move. To do this, enter in the row, column, and direction respectively. For the row/column, enter in an integer cooresponding to the row/column legend. For the direction, enter in 'u' , 'd' , 'l' , or 'r' for up, down, left, and right, respectively. 
 

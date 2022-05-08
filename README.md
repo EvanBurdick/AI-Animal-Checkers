@@ -20,6 +20,7 @@ is limited to what it can capture.
 
 -Mouse can capture: mouse, elephant
 
+The game is finished once a player has sucessfully captured the oponent's den, or a player has successfully captured all of the oponent's pieces.
 
 ## How to compile / run
 -compile and run file *driver.cpp*

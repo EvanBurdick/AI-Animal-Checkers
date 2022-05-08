@@ -1,5 +1,5 @@
 # Animal Checkers AI Program 
-*By: Evan Burdick*
+*By: @EvanBurdick*
 
 ## Introduction
 This is a player vs computer board game called Animal Checkers, which is a modified version of a Chinese game called Jungle. The computer

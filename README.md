@@ -29,14 +29,22 @@ The game is finished once a player has sucessfully captured the oponent's den, o
 ## Using the Program
 Upon first running the program, you are asked which user is going to go first. Enter in 'p' for player, or 'c' for computer.
 
-## Board Layout
+### Board Layout
+The board includes 7 rows and 9 columns, which are labeled on the outside of the board, making for a total of 63 cells. Each piece is represented by a letter. Capital letters are the player's pieces, while lowercase letters represent the opponent's pieces.
+- 'D/d' = Den
+- 'E/e' = Elephant
+- 'T/t' = Tiger
+- 'W/w' = Wolf
+- 'M/m' = Mouse
+
+![Board Configuration](https://github.com/EvanBurdick/AI-Animal-Checkers/blob/main/Demo/BoardLayout.jpg)
 
 ### Player's Turn
 On your turn, you are presented with the board state and are asked which piece to move. To do this, enter in the row, column, and direction respectively. For the row/column, enter in an integer cooresponding to the row/column legend. For the direction, enter in 'u' , 'd' , 'l' , or 'r' for up, down, left, and right, respectively. 
 
 Demo:
 
-![](https://github.com/EvanBurdick/AI-Animal-Checkers/blob/main/Demo/YourTurnDemo.gif)
+![Turn Demo](https://github.com/EvanBurdick/AI-Animal-Checkers/blob/main/Demo/YourTurnDemo.gif)
 ### Computer's Turn
 On the computer's turn, moves are done automatically. You can scroll up in the terminal to view the computer's decision.
 
